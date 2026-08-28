@@ -2,13 +2,13 @@ VER 3 0100000000000005 "AoE" "134400"
 #showtooltip
 /cast Consecration
 END
-VER 3 0100000000000009 "DS" "134400"
-#showtooltip
-/cast Divine Shield
-END
 VER 3 0100000000000008 "DS" "134400"
 #showtooltip
 /cast Divine Protection
+END
+VER 3 0100000000000009 "DS" "134400"
+#showtooltip
+/cast Divine Shield
 END
 VER 3 0100000000000004 "Heal" "134400"
 #showtooltip
@@ -19,7 +19,8 @@ VER 3 0100000000000006 "HoJ" "134400"
 /cast Hammer of Justice
 END
 VER 3 010000000000000A "Interupt" "134400"
-/cast Arcane Torrent
+#showtooltip
+/cast [mod:shift]Arcane Torrent;Rebuke
 END
 VER 3 0100000000000001 "Judge/HoR" "134400"
 #showtooltip

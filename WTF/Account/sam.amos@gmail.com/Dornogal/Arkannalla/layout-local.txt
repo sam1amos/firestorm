@@ -13,3 +13,10 @@ X: 67
 Y: 0
 W: 114
 H: 24
+Frame: DBM_GUI_OptionsFrame
+FrameLevel: 504
+Anchor: CENTER
+X: 0
+Y: 0
+W: 800
+H: 600

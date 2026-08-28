@@ -1,12 +1,5 @@
 
-Postal3DB = {
-["global"] = {
-["BlackBook"] = {
-["alts"] = {
-"Arkannalla|Dornogal|Horde|20|PALADIN",
-},
-},
-},
+HandyNotes_DragonGlyphsDB = {
 ["profileKeys"] = {
 ["Arkannalla - Dornogal"] = "Arkannalla - Dornogal",
 },

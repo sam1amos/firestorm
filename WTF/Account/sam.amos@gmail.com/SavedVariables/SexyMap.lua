@@ -1,7 +1,5 @@
 
 SexyMap2DB = {
-["presets"] = {
-},
 ["Arkannalla-Dornogal"] = "global",
 ["global"] = {
 ["core"] = {
@@ -21,21 +19,40 @@ SexyMap2DB = {
 ["enabled"] = true,
 ["fontColor"] = {
 },
-["xOffset"] = -40,
+["xOffset"] = -35,
 ["monochrome"] = false,
 ["updateRate"] = 1,
-["yOffset"] = -10,
+["yOffset"] = -13,
 ["font"] = "Friz Quadrata TT",
 ["borderColor"] = {
 },
-["coordPrecision"] = "%.1f, %.1f",
+["coordPrecision"] = "%.2f, %.2f",
 ["backgroundColor"] = {
 },
 ["outline"] = "NONE",
 },
-["ping"] = {
-["showPing"] = true,
-["showAt"] = "map",
+["buttons"] = {
+["radius"] = 10,
+["lockDragging"] = false,
+["allowDragging"] = true,
+["scale"] = 1,
+["dragPositions"] = {
+["GarrisonLandingPageMinimapButton"] = 151.4994469784156,
+["LibDBIcon10_AtlasLoot"] = 208.5369595449485,
+["AddonCompartmentFrame"] = 168.0779712047213,
+},
+["visibilitySettings"] = {
+["MinimapZoomIn"] = "never",
+["MiniMapMailFrame"] = "always",
+["MiniMapWorldMapButton"] = "never",
+["MinimapZoomOut"] = "never",
+["AddonCompartmentFrame"] = "hover",
+["GarrisonLandingPageMinimapButton"] = "always",
+["CraftingOrder"] = "always",
+["TimeManagerClockButton"] = "always",
+["SexyMapZoneTextButton"] = "always",
+},
+["controlVisibility"] = true,
 },
 ["movers"] = {
 ["lockTopWidget"] = false,
@@ -48,23 +65,23 @@ SexyMap2DB = {
 ["clock"] = {
 ["bgColor"] = {
 ["a"] = 1,
-["r"] = 0,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 0,
 },
 ["font"] = "Friz Quadrata TT",
 ["fontColor"] = {
 },
 ["borderColor"] = {
 ["a"] = 1,
-["r"] = 0,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 0,
 },
 ["xOffset"] = 50,
 ["monochrome"] = false,
 ["outline"] = "NONE",
-["yOffset"] = 0,
+["yOffset"] = -3,
 },
 ["borders"] = {
 ["applyPreset"] = false,
@@ -73,12 +90,12 @@ SexyMap2DB = {
 ["backdrop"] = {
 ["show"] = true,
 ["textureColor"] = {
-["b"] = 0,
-["g"] = 0,
 ["r"] = 0,
+["g"] = 0,
+["b"] = 0,
 },
 ["settings"] = {
-["edgeSize"] = 17,
+["edgeSize"] = 6,
 ["edgeFile"] = 137057,
 ["bgFile"] = 137056,
 ["tile"] = false,
@@ -104,38 +121,24 @@ SexyMap2DB = {
 ["yOffset"] = 0,
 ["bgColor"] = {
 ["a"] = 1,
-["r"] = 0,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 0,
 },
 ["font"] = "Friz Quadrata TT",
 ["useSecureButton"] = false,
 ["borderColor"] = {
 ["a"] = 1,
-["r"] = 0,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 0,
 },
 },
-["buttons"] = {
-["radius"] = 10,
-["lockDragging"] = false,
-["allowDragging"] = true,
-["scale"] = 1,
-["dragPositions"] = {
+["ping"] = {
+["showPing"] = true,
+["showAt"] = "map",
 },
-["visibilitySettings"] = {
-["MinimapZoomIn"] = "never",
-["MiniMapMailFrame"] = "always",
-["MiniMapWorldMapButton"] = "never",
-["MinimapZoomOut"] = "never",
-["SexyMapZoneTextButton"] = "always",
-["GarrisonLandingPageMinimapButton"] = "always",
-["TimeManagerClockButton"] = "always",
-["CraftingOrder"] = "always",
-["AddonCompartmentFrame"] = "hover",
 },
-["controlVisibility"] = true,
-},
+["presets"] = {
 },
 }

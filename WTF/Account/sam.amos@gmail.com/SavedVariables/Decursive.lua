@@ -7,6 +7,16 @@ DecursiveDB = {
 },
 ["class"] = {
 ["PALADIN"] = {
+["CureOrder-3"] = {
+1,
+5,
+nil,
+2,
+[64] = 7,
+[16] = 4,
+[32] = 6,
+[8] = 3,
+},
 ["CureOrder-2"] = {
 1,
 5,

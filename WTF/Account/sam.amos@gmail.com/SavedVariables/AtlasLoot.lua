@@ -7,26 +7,16 @@ AtlasLootDB = {
 ["Default"] = {
 ["GUI"] = {
 ["selected"] = {
-[5] = 0,
+nil,
+"BlackfathomDeeps",
+nil,
+2,
+0,
 },
 },
 ["Button"] = {
 ["Item"] = {
 ["ClickHandler"] = {
-["types"] = {
-["ChatLink"] = true,
-["SetFavourite"] = true,
-["DressUp"] = true,
-["Azerite"] = true,
-},
-["LeftButton"] = {
-["Shift"] = "ChatLink",
-["Ctrl"] = "DressUp",
-["Alt"] = "SetFavourite",
-},
-["RightButton"] = {
-["Shift"] = "Azerite",
-},
 ["__defaults"] = {
 ["LeftButton"] = {
 ["Shift"] = "ChatLink",
@@ -42,6 +32,20 @@ AtlasLootDB = {
 ["DressUp"] = true,
 ["SetFavourite"] = true,
 },
+},
+["LeftButton"] = {
+["Shift"] = "ChatLink",
+["Ctrl"] = "DressUp",
+["Alt"] = "SetFavourite",
+},
+["RightButton"] = {
+["Shift"] = "Azerite",
+},
+["types"] = {
+["ChatLink"] = true,
+["Azerite"] = true,
+["DressUp"] = true,
+["SetFavourite"] = true,
 },
 },
 },

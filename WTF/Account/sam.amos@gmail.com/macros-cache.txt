@@ -1,0 +1,8 @@
+VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('No spell available')
+END
+VER 3 0000000000000001 "Mount" "134400"
+#showtooltip
+#/cast Summon Thalassian Charger
+/cast Grandmaster's Royal Board
+END

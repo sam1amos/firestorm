@@ -1,0 +1,51 @@
+VER 3 0100000000000005 "AoE" "134400"
+#showtooltip
+/cast Consecration
+END
+VER 3 0100000000000008 "DS" "134400"
+#showtooltip
+/cast Divine Protection
+END
+VER 3 0100000000000009 "DS" "134400"
+#showtooltip
+/cast Divine Shield
+END
+VER 3 0100000000000004 "Heal" "134400"
+#showtooltip
+/cast Flash of Light
+END
+VER 3 0100000000000006 "HoJ" "134400"
+#showtooltip
+/cast Hammer of Justice
+END
+VER 3 010000000000000A "Interupt" "134400"
+/cast Arcane Torrent
+END
+VER 3 0100000000000001 "Judge/HoR" "134400"
+#showtooltip
+/startattack
+/cast [mod:shift]Hammer of Wrath;Judgment
+END
+VER 3 010000000000000B "Sheild" "134400"
+#showtooltip
+/startattack
+/cast Avenger's Shield
+END
+VER 3 0100000000000003 "SotR" "134400"
+#showtooltip
+/startattack
+/cast Shield of the Righteous
+END
+VER 3 0100000000000002 "Strike" "134400"
+#showtooltip
+/startattack
+/cast Crusader Strike
+END
+VER 3 010000000000000C "Taunt" "134400"
+#showtooltip
+/cast Hand of Reckoning
+END
+VER 3 0100000000000007 "WoG" "134400"
+#showtooltip
+/cast Word of Glory
+END

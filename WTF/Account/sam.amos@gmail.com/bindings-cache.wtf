@@ -1,0 +1,4 @@
+bind Q CLICK BT4Button61:Keybind
+bind E CLICK BT4Button62:Keybind
+bind BUTTON5 CLICK BT4Button63:Keybind
+bind . CLICK BT4Button63:Keybind

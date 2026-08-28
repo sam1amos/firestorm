@@ -1,0 +1,15 @@
+Version: 1
+Frame: DcrMUFsContainer
+FrameLevel: 1
+Anchor: CENTER
+X: -320
+Y: -164
+W: 20
+H: 20
+Frame: TipTac
+FrameLevel: 1
+Anchor: TOP
+X: 67
+Y: 0
+W: 114
+H: 24

@@ -5,8 +5,8 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["textfade"] = {
-["ChatFrame1"] = false,
 ["ChatFrame4"] = false,
+["ChatFrame1"] = false,
 },
 },
 },
@@ -31,8 +31,8 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["chatlinesframes"] = {
-["ChatFrame1"] = true,
 ["ChatFrame4"] = true,
+["ChatFrame1"] = true,
 },
 ["chatlines"] = 5000,
 ["savehistory"] = true,
@@ -58,7 +58,7 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["ChatLog"] = 2,
+["Alias"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -68,7 +68,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["Alias"] = 2,
+["ChatLog"] = 2,
 },
 },
 },

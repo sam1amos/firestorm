@@ -29,6 +29,9 @@ nil,
 },
 },
 },
+["global"] = {
+["LastVersionAnnounce"] = 1787977674,
+},
 ["profiles"] = {
 ["Default"] = {
 ["DebuffsFrameContainer_y"] = 260.2663908508021,

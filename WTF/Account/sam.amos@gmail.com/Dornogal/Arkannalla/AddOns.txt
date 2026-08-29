@@ -5,3 +5,5 @@ DBM-Test: disabled
 Blizzard_CombatText: enabled
 GatherMate2Storage_TheWarWithin: disabled
 AtlasLoot: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

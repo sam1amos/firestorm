@@ -2,13 +2,13 @@ VER 3 0100000000000005 "AoE" "134400"
 #showtooltip
 /cast Consecration
 END
-VER 3 0100000000000008 "DS" "134400"
-#showtooltip
-/cast Divine Protection
-END
 VER 3 0100000000000009 "DS" "134400"
 #showtooltip
 /cast Divine Shield
+END
+VER 3 0100000000000008 "DS" "134400"
+#showtooltip
+/cast Divine Protection
 END
 VER 3 0100000000000004 "Heal" "134400"
 #showtooltip

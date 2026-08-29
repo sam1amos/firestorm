@@ -1,0 +1,3 @@
+
+BugSackDB = nil
+BugSackLDBIconDB = nil

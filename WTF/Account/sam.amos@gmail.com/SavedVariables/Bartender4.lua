@@ -6,8 +6,8 @@ Bartender4DB = {
 ["Arkannalla - Dornogal"] = {
 ["enabled"] = true,
 ["position"] = {
-["y"] = 29,
-["x"] = -289.5,
+["y"] = 20,
+["x"] = -289,
 ["point"] = "BOTTOM",
 },
 ["version"] = 3,
@@ -57,10 +57,10 @@ Bartender4DB = {
 ["rows"] = 12,
 ["version"] = 3,
 ["position"] = {
-["y"] = 227,
-["x"] = -24,
-["point"] = "RIGHT",
-["scale"] = 0.5,
+["y"] = -258,
+["x"] = -27,
+["point"] = "TOPRIGHT",
+["scale"] = 0.55,
 },
 ["padding"] = 0,
 ["WoW10Layout"] = true,
@@ -70,10 +70,10 @@ Bartender4DB = {
 ["rows"] = 12,
 ["version"] = 3,
 ["position"] = {
-["y"] = -43,
-["x"] = -24,
+["y"] = -16,
+["x"] = -27,
 ["point"] = "RIGHT",
-["scale"] = 0.5,
+["scale"] = 0.55,
 },
 ["padding"] = 0,
 ["WoW10Layout"] = true,
@@ -81,8 +81,8 @@ Bartender4DB = {
 {
 ["version"] = 3,
 ["position"] = {
-["y"] = 84.65555572509766,
-["x"] = -284.5,
+["y"] = 65,
+["x"] = -274,
 ["point"] = "BOTTOM",
 },
 ["padding"] = 0,
@@ -126,7 +126,7 @@ Bartender4DB = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 3,
-["x"] = -285,
+["x"] = -274,
 ["point"] = "TOP",
 },
 ["padding"] = 0,
@@ -164,7 +164,7 @@ Bartender4DB = {
 ["rows"] = 11,
 ["version"] = 3,
 ["position"] = {
-["y"] = 68,
+["y"] = 54,
 ["x"] = -5,
 ["point"] = "LEFT",
 ["scale"] = 0.75,
@@ -189,7 +189,6 @@ Bartender4DB = {
 ["BlizzardArt"] = {
 ["profiles"] = {
 ["Arkannalla - Dornogal"] = {
-["enabled"] = true,
 ["artLayout"] = "MODERN",
 ["position"] = {
 ["y"] = 87,
@@ -205,8 +204,8 @@ Bartender4DB = {
 ["Arkannalla - Dornogal"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 137.2891845703125,
-["x"] = -75.74981689453125,
+["y"] = 160,
+["x"] = -76,
 ["point"] = "BOTTOM",
 },
 },

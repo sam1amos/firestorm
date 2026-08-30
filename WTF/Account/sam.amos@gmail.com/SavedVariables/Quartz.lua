@@ -28,9 +28,9 @@ Quartz3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["y"] = -49.99986267089844,
-["x"] = 0,
 ["point"] = "CENTER",
 ["scale"] = 1.5,
+["x"] = 0,
 },
 },
 },

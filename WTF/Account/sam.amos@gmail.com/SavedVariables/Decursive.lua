@@ -30,7 +30,7 @@ nil,
 },
 },
 ["global"] = {
-["LastVersionAnnounce"] = 1787977674,
+["LastVersionAnnounce"] = 1788062734,
 },
 ["profiles"] = {
 ["Default"] = {

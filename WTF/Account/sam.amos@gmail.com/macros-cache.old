@@ -1,8 +1,14 @@
 VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('No spell available')
+/stopcasting
+/cast [@mouseover,nomod,exists] Cleanse Toxins;  [@mouseover,exists,mod:ctrl] Cleanse Toxins; [@mouseover,exists,mod:shift] Cleanse Toxins
+END
+VER 3 0000000000000004 "Follow" "132219"
+/follow
 END
 VER 3 0000000000000001 "Mount" "134400"
 #showtooltip
-#/cast Summon Thalassian Charger
-/cast Grandmaster's Royal Board
+/cast [mod:alt]Summon Thalassian Charger;[mod:shift]Renewed Proto-Drake;Grandmaster's Royal Board
+END
+VER 3 0000000000000003 "Target" "132212"
+/target Arkalla
 END

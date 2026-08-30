@@ -2,12 +2,12 @@
 ThreatPlatesDB = {
 ["char"] = {
 ["Arkannalla - Dornogal"] = {
-["welcome"] = true,
 ["spec"] = {
 nil,
 true,
 false,
 },
+["welcome"] = true,
 },
 },
 ["global"] = {

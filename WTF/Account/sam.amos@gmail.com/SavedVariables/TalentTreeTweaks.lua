@@ -9,39 +9,39 @@ TalentTreeTweaksDB = {
 ["ReduceTaint"] = true,
 ["ExportInspectedBuild"] = true,
 ["TooltipIds"] = true,
-["ImportIntoCurrentLoadout"] = true,
+["ReduceSpam"] = true,
 ["AlwaysShowGates"] = true,
 ["ChangeBackground"] = true,
 ["CopyTalentButtonInfo"] = true,
-["HeroTalents"] = true,
+["MiscFixes"] = true,
 ["Drive Auto Purchaser"] = true,
 ["Skyriding Auto Purchaser"] = true,
 ["HighlightCascadeRepurchable"] = true,
 ["DebugNodeInfo"] = true,
 ["RespecButtons"] = true,
 ["ScaleTalentFrame"] = true,
-["MiscFixes"] = true,
-["ReduceSpam"] = true,
+["HeroTalents"] = true,
+["ImportIntoCurrentLoadout"] = true,
 },
 ["moduleDb"] = {
 ["InspectDiff"] = {
 ["colorYellow"] = {
 ["a"] = 0.75,
-["r"] = 1,
-["g"] = 0.67,
 ["b"] = 0,
+["g"] = 0.67,
+["r"] = 1,
 },
 ["colorGreen"] = {
 ["a"] = 0.58,
-["r"] = 0,
-["g"] = 1,
 ["b"] = 0.3,
+["g"] = 1,
+["r"] = 0,
 },
 ["colorRed"] = {
 ["a"] = 0.5,
-["r"] = 1,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 1,
 },
 ["enableTalentTreeViewerDiff"] = true,
 },
@@ -49,43 +49,43 @@ TalentTreeTweaksDB = {
 ["disableDetectionFromStrings"] = true,
 },
 ["UnlockRestrictions"] = {
-["unlockInCombatSpending"] = true,
 ["unlockShareButton"] = true,
+["unlockInCombatSpending"] = true,
 },
 ["MiniTreeInTooltip"] = {
-["inactiveSubTreeAlpha"] = 0.5,
+["diffOrange"] = {
+["b"] = 0,
+["g"] = 1,
+["r"] = 1,
+},
 ["displayStyle"] = "simple-default-diff",
 ["upgradedDisplayStyle"] = 1,
 ["diffRed"] = {
-["r"] = 1,
-["g"] = 0,
 ["b"] = 0,
+["g"] = 0,
+["r"] = 1,
 },
 ["scale"] = 1,
-["diffGreen"] = {
-["r"] = 0,
-["g"] = 1,
-["b"] = 0,
-},
+["inactiveSubTreeAlpha"] = 0.5,
 ["diffYellow"] = {
-["r"] = 1,
-["g"] = 1,
 ["b"] = 1,
-},
-["diffOrange"] = {
-["r"] = 1,
 ["g"] = 1,
+["r"] = 1,
+},
+["diffGreen"] = {
 ["b"] = 0,
+["g"] = 1,
+["r"] = 0,
 },
 },
 ["ReduceTaint"] = {
-["disableMultiActionBarShowHide"] = true,
 ["alwaysReplaceShareButton"] = false,
+["disableMultiActionBarShowHide"] = true,
 },
 ["ExportInspectedBuild"] = {
-["showLinkInChatButton"] = true,
-["inspectTalentsMenuItem"] = true,
 ["exportOnDropdownRightClick"] = true,
+["inspectTalentsMenuItem"] = true,
+["showLinkInChatButton"] = true,
 },
 ["TooltipIds"] = {
 ["professionTooltip"] = {
@@ -125,20 +125,16 @@ TalentTreeTweaksDB = {
 ["reportPurchases"] = true,
 ["surge"] = 1,
 ["skyridingEnabled"] = true,
+["rideAlong"] = 1,
+["surgeCache"] = {
+},
 ["rideAlongCache"] = {
 ["Arkannalla-Dornogal"] = 1,
 },
-["surgeCache"] = {
 },
-["rideAlong"] = 1,
-},
-["HighlightCascadeRepurchable"] = {
-["color"] = {
-["a"] = 0.5,
-["r"] = 0,
-["g"] = 0,
-["b"] = 1,
-},
+["ImportIntoCurrentLoadout"] = {
+["defaultCheckboxState"] = false,
+["unlockImportButton"] = true,
 },
 ["DebugNodeInfo"] = {
 ["slashDump"] = false,
@@ -156,9 +152,13 @@ TalentTreeTweaksDB = {
 ["dropdownUpdateOnLoadConfigFix"] = true,
 ["linkChoiceNodeInChatFix"] = true,
 },
-["ImportIntoCurrentLoadout"] = {
-["defaultCheckboxState"] = false,
-["unlockImportButton"] = true,
+["HighlightCascadeRepurchable"] = {
+["color"] = {
+["a"] = 0.5,
+["b"] = 1,
+["g"] = 0,
+["r"] = 0,
+},
 },
 },
 }

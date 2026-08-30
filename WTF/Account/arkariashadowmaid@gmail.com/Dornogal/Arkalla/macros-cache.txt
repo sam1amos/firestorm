@@ -1,0 +1,32 @@
+VER 3 0100000000000004 "DoT" "134400"
+#showtooltip
+/cast [mod:alt]Devouring Plague;[mod:shift]Vampiric Touch;Shadow Word: Pain
+END
+VER 3 0100000000000002 "DPS" "134400"
+#showtooltip
+/cast [mod:alt]Shadow Word: Pain;[mod:shift]Mind Blast;Smite
+END
+VER 3 0100000000000001 "Fear/Fade" "134400"
+#showtooltip
+/cast [mod:shift]Fade;Psychic Scream
+END
+VER 3 0100000000000003 "Heal" "134400"
+#showtooltip
+/cast [mod:shift]Heal;Flash Heal
+END
+VER 3 0100000000000008 "Holy Nova" "134400"
+#showtooltip
+/cast [mod:shift]Holy Nova;Prayer of Healing
+END
+VER 3 0100000000000005 "PoM" "134400"
+#showtooltip
+/cast Prayer of Mending
+END
+VER 3 0100000000000006 "Renew" "134400"
+#showtooltip
+/cast Renew
+END
+VER 3 0100000000000007 "Shield" "134400"
+#showtooltip
+/cast Power Word: Shield
+END

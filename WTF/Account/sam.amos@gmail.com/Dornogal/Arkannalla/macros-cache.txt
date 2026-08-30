@@ -48,5 +48,5 @@ VER 3 010000000000000C "Taunt" "134400"
 END
 VER 3 0100000000000007 "WoG" "134400"
 #showtooltip
-/cast Word of Glory
+/cast [mod:shift]Ardent Defender;Word of Glory
 END

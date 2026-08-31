@@ -5,9 +5,14 @@ END
 VER 3 0000000000000004 "Follow" "132219"
 /follow
 END
+VER 3 0000000000000005 "Invite" "133621"
+/invite Arkalla
+END
 VER 3 0000000000000001 "Mount" "134400"
 #showtooltip
-/cast [mod:alt]Summon Thalassian Charger;[mod:shift]Renewed Proto-Drake;Grandmaster's Royal Board
+/cast [mod:shiftctrl] Mimiron's Head; [mod:shift] Renewed Proto-Drake; [mod:alt] Grand Expedition Yak; [mod:ctrl] Otterworldly Ottuk Carrier; [nomounted] Grandmaster's Royal Board
+/dismount [mounted]
+/leavevehicle [canexitvehicle]
 END
 VER 3 0000000000000003 "Target" "132212"
 /target Arkalla

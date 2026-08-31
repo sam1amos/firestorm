@@ -62,6 +62,7 @@ VMRT = {
 ["ExCD2"] = {
 ["upd4525"] = true,
 ["gnGUIDs"] = {
+["Arkannalla"] = 66,
 ["Arkalla"] = 257,
 },
 ["NoRaid"] = true,
@@ -378,10 +379,10 @@ true,
 ["FontOutline"] = true,
 },
 ["Addon"] = {
-["Scale"] = 1,
+["EJ_CHECK_VER"] = 110205,
 ["Version"] = 5220,
 ["EJ_CHECK_VER_PTR"] = "63704",
-["PreVersion"] = 5220,
+["Scale"] = 1,
 ["EJ_DATA"] = {
 ["MapIDToJournalInstance"] = {
 },
@@ -396,7 +397,7 @@ true,
 },
 },
 ["Timer"] = 0.1,
-["EJ_CHECK_VER"] = 110205,
+["PreVersion"] = 5220,
 },
 ["Profiles"] = {
 },

@@ -45,10 +45,10 @@ SexyMap2DB = {
 ["LibDBIcon10_Bartender4"] = 186.8113941532391,
 ["LibDBIcon10_DBM"] = 174.4976576463025,
 ["GameTimeFrame"] = 137.3717985812357,
-["GarrisonLandingPageMinimapButton"] = 44.85196596657396,
-["MiniMapTracking"] = 150.0316593847876,
-["LibDBIcon10_Leatrix_Plus"] = 223.312746542685,
 ["LibDBIcon10_WeakAuras"] = 211.4502549822895,
+["GarrisonLandingPageMinimapButton"] = 44.85196596657396,
+["LibDBIcon10_Leatrix_Plus"] = 223.312746542685,
+["MiniMapTracking"] = 150.0316593847876,
 ["LibDBIcon10_TipTac"] = 237.1577131041433,
 },
 ["visibilitySettings"] = {

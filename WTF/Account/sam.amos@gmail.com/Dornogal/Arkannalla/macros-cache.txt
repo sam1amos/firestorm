@@ -10,9 +10,14 @@ VER 3 0100000000000009 "DS" "134400"
 #showtooltip
 /cast Divine Shield
 END
+VER 3 010000000000000D "DT" "134400"
+#showtooltip
+/startattack
+/cast Divine Toll
+END
 VER 3 0100000000000004 "Heal" "134400"
 #showtooltip
-/cast Flash of Light
+/cast [mod:shift]Blessing of Freedom;Flash of Light
 END
 VER 3 0100000000000006 "HoJ" "134400"
 #showtooltip

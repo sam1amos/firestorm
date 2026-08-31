@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 9,
+["session"] = 13,
 ["errors"] = {
 {
 ["message"] = "Error loading WTF/Account/arkariashadowmaid@gmail.com/SavedVariables/GatherMate2Storage_TheWarWithin.lua",
@@ -22,8 +22,16 @@ BugGrabberDB = {
 ["time"] = "2026/08/29 15:36:53",
 ["locals"] = "",
 ["stack"] = "",
-["session"] = 9,
-["counter"] = 9,
+["session"] = 13,
+["counter"] = 13,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'AtlasLoot' tried to call the protected function 'Button:SetPassThroughButtons()'.",
+["time"] = "2026/08/30 16:49:47",
+["locals"] = "self = <table> {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\naddonName = \"AtlasLoot\"\naddonFunc = \"Button:SetPassThroughButtons()\"\nname = \"AtlasLoot\"\nbadAddons = <table> {\n AtlasLoot = true\n}\nL = <table> {\n ADDON_CALL_PROTECTED_MATCH = \"^%[(.*)%] (AddOn '.*' tried to call the protected function '.*'.)$\"\n NO_DISPLAY_2 = \"|cffffff00The standard display is called BugSack, and can probably be found on the same site where you found !BugGrabber.|r\"\n ERROR_DETECTED = \"%s |cffffff00captured, click the link for more information.|r\"\n USAGE = \"|cffffff00Usage: /buggrabber <1-%d>.|r\"\n BUGGRABBER_STOPPED = \"|cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r\"\n STOP_NAG = \"|cffffff00!BugGrabber will not nag about missing a display addon again until next patch.|r\"\n ADDON_DISABLED = \"|cffffff00!BugGrabber and %s cannot coexist; %s has been forcefully disabled. If you want to, you may log out, disable !BugGrabber, and enable %s.|r\"\n NO_DISPLAY_STOP = \"|cffffff00If you don't want to be reminded about this again, run /stopnag.|r\"\n NO_DISPLAY_1 = \"|cffffff00You seem to be running !BugGrabber with no display addon to go along with it. Although a slash command is provided for accessing error reports, a display can help you manage these errors in a more convenient way.|r\"\n ERROR_UNABLE = \"|cffffff00!BugGrabber is unable to retrieve errors from other players by itself. Please install BugSack or a similar display addon that might give you this functionality.|r\"\n ADDON_CALL_PROTECTED = \"[%s] AddOn '%s' tried to call the protected function '%s'.\"\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:583: in function '?'\n[Interface/AddOns/!BugGrabber/BugGrabber.lua]:507: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:507>\n[C]: in function 'SetPassThroughButtons'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:288: in function 'CheckMouseButtonPassthrough'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:302: in function 'AcquirePin'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:94: in function <...haredMapDataProviders/BonusObjectiveDataProvider.lua:89>\n[C]: in function 'xpcall'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:76: in function 'FireCallbacks'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:35: in function <.../Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua:31>\n[C]: in function 'accessor'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:52: in function 'AddCallback'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:60: in function 'AddCancelableCallback'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:89: in function 'RefreshAllData'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:62: in function 'OnEvent'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:99: in function 'SignalEvent'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:117: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:116>\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent'\n[Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua]:163: in function <...rface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua:162>",
+["session"] = 13,
+["counter"] = 1,
 },
 },
 }

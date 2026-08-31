@@ -10,8 +10,8 @@ CliqueDB3 = {
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Arkannalla - Dornogal",
 ["downclick"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "Arkannalla - Dornogal",
+["specswap"] = false,
 },
 },
 ["profileKeys"] = {
@@ -21,10 +21,10 @@ CliqueDB3 = {
 ["Arkannalla - Dornogal"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },

@@ -52,7 +52,7 @@ nil,
 },
 },
 ["global"] = {
-["LastVersionAnnounce"] = 1788066098,
+["LastVersionAnnounce"] = 1788129868,
 },
 ["profiles"] = {
 ["Default"] = {

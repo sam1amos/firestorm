@@ -1,10 +1,8 @@
 
 iLevelSetting = {
-["inside"] = false,
+["disableInspect"] = false,
 ["setting"] = 2,
 ["debug"] = false,
-["differenceColor"] = false,
-["color"] = false,
 ["enchantsTable"] = {
 false,
 false,
@@ -24,6 +22,8 @@ true,
 true,
 true,
 },
+["color"] = false,
+["differenceColor"] = false,
 ["tooltips"] = false,
-["disableInspect"] = false,
+["inside"] = false,
 }

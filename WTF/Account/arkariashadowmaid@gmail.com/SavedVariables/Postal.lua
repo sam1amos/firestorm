@@ -3,7 +3,7 @@ Postal3DB = {
 ["global"] = {
 ["BlackBook"] = {
 ["alts"] = {
-"Arkalla|Dornogal|Horde|18|PRIEST",
+"Arkalla|Dornogal|Horde|21|PRIEST",
 },
 },
 },

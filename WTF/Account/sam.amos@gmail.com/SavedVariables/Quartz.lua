@@ -1,45 +1,64 @@
 
 Quartz3DB = {
-["namespaces"] = {
-["Pet"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 860,
-},
-},
-},
-["Player"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 835,
-},
-},
-},
-["Focus"] = {
-["profiles"] = {
-["Default"] = {
-["y"] = -122.9995422363281,
-["x"] = 318.9996948242188,
-["point"] = "CENTER",
-},
-},
-},
-["Target"] = {
-["profiles"] = {
-["Default"] = {
-["y"] = -49.99986267089844,
-["point"] = "CENTER",
-["scale"] = 1.5,
-["x"] = 0,
-},
-},
-},
-},
-["profileKeys"] = {
-["Arkannalla - Dornogal"] = "Default",
-},
-["profiles"] = {
-["Default"] = {
-},
-},
+	["namespaces"] = {
+		["Swing"] = {
+		},
+		["Buff"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 750,
+					["y"] = 100,
+				},
+			},
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = 170,
+					["x"] = 850,
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = 550,
+					["x"] = 1300,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["h"] = 25,
+					["w"] = 250,
+					["y"] = 430,
+					["x"] = 850,
+				},
+			},
+		},
+		["Mirror"] = {
+		},
+		["Range"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Arkannalla - BFA Reforged"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
 }

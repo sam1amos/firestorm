@@ -1,0 +1,30 @@
+VER 3 0100000000000002 "AD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/statattack
+/cast Ardent Defender
+END
+VER 3 0100000000000001 "AS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Avenger's Shield
+END
+VER 3 0100000000000004 "AvengGuarKings" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/statattack
+/cast [mod:shift]Guardian of Ancient Kings;Avenging Wrath
+END
+VER 3 0100000000000003 "Consecration" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/statattack
+/cast Consecration
+END
+VER 3 0100000000000005 "DivShie" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/statattack
+/cast Divine Shield
+END
+VER 3 0100000000000006 "DivSteed" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/statattack
+/cast Divine Steed
+END

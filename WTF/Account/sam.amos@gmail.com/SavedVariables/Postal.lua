@@ -1,17 +1,17 @@
 
 Postal3DB = {
-["profileKeys"] = {
-["Arkannalla - Dornogal"] = "Arkannalla - Dornogal",
-},
-["global"] = {
-["BlackBook"] = {
-["alts"] = {
-"Arkannalla|Dornogal|Horde|26|PALADIN",
-},
-},
-},
-["profiles"] = {
-["Arkannalla - Dornogal"] = {
-},
-},
+	["profileKeys"] = {
+		["Arkannalla - BFA Reforged"] = "Arkannalla - BFA Reforged",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Arkannalla|BFA Reforged|Horde|110|PALADIN", -- [1]
+			},
+		},
+	},
+	["profiles"] = {
+		["Arkannalla - BFA Reforged"] = {
+		},
+	},
 }

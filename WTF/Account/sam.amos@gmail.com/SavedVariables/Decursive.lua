@@ -1,44 +1,31 @@
 
 DecursiveDB = {
-["profileKeys"] = {
-["Arkannalla - Dornogal"] = "Default",
-},
-["namespaces"] = {
-},
-["class"] = {
-["PALADIN"] = {
-["CureOrder-3"] = {
-1,
-5,
-nil,
-2,
-[64] = 7,
-[16] = 4,
-[32] = 6,
-[8] = 3,
-},
-["CureOrder-2"] = {
-1,
-5,
-nil,
-2,
-[64] = 7,
-[16] = 4,
-[32] = 6,
-[8] = 3,
-},
-},
-},
-["global"] = {
-["LastVersionAnnounce"] = 1788129899,
-},
-["profiles"] = {
-["Default"] = {
-["DebuffsFrameContainer_y"] = 260.2663908508021,
-["DebuffsFrameGrowToTop"] = true,
-["MainBarX"] = 682.6666831970215,
-["MainBarY"] = -95.99999147388644,
-["DebuffsFrameContainer_x"] = 447.9993598063629,
-},
-},
+	["profileKeys"] = {
+		["Arkannalla - BFA Reforged"] = "Default",
+	},
+	["class"] = {
+		["PALADIN"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[8] = 1,
+				[16] = 2,
+				[32] = -16,
+			},
+		},
+	},
+	["global"] = {
+		["LastVersionAnnounce"] = 1788222669,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["DebuffsFrameContainer_y"] = 265.2440385407772,
+			["MainBarX"] = 834.8447250763638,
+			["MainBarY"] = 0,
+			["DebuffsFramePerline"] = 12,
+			["DebuffsFrameContainer_x"] = 448.7106445458085,
+		},
+	},
 }

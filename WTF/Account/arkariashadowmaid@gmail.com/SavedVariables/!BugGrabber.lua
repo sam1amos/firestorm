@@ -1,37 +1,15 @@
 
 BugGrabberDB = {
-["lastSanitation"] = 3,
-["session"] = 13,
-["errors"] = {
-{
-["message"] = "Error loading WTF/Account/arkariashadowmaid@gmail.com/SavedVariables/GatherMate2Storage_TheWarWithin.lua",
-["session"] = 2,
-["time"] = "2026/08/29 15:57:56",
-["counter"] = 1,
-},
-{
-["message"] = "Interface/AddOns/DBM-Core/DBM-Core.lua:4868: bad argument #2 to 'format' (string expected, got nil)",
-["time"] = "2026/08/29 21:07:54",
-["locals"] = "self = <table> {\n ReleaseRevision = 20251118000000\n TaintedByTests = false\n Arrow = <table> {\n }\n RangeCheck = <table> {\n }\n Test = <table> {\n }\n Voices = <table> {\n }\n BattleMusic = <table> {\n }\n InfoFrame = <table> {\n }\n dungeonSubVersion = 216\n Flash = <table> {\n }\n ModLists = <table> {\n }\n DisplayVersion = \"12.0.7 alpha\"\n Difficulties = <table> {\n }\n Music = <table> {\n }\n lastAntiSpamFLASH = 28459.373000\n lastAntiSpamDelayedZoneCheck = 28155.285000\n lastAntiSpamPTSYSTEM = 28459.373000\n registeredUnitEvents = <table> {\n }\n VoiceVersions = <table> {\n }\n AddOns = <table> {\n }\n classicSubVersion = 0\n Options = <table> {\n }\n Latency = <table> {\n }\n Revision = 20251130094721\n shortTermRegisterEvents = <table> {\n }\n DungeonMusic = <table> {\n }\n Defeat = <table> {\n }\n Victory = <table> {\n }\n Counts = <table> {\n }\n Keystones = <table> {\n }\n Durability = <table> {\n }\n Nameplate = <table> {\n }\n HudMap = <table> {\n }\n DefaultOptions = <table> {\n }\n HighestRelease = 20251118000000\n Mods = <table> {\n }\n}\nsender = nil\ntimer = 10\nblizzardTimer = true\nunitId = nil\ntarget = nil\n(*temporary) = <table> {\n color = <table> {\n }\n objClass = \"Announce\"\n combinedcount = 0\n mod = <table> {\n }\n option = \"%s\"\n combinedtext = <table> {\n }\n icon = \"132349\"\n sound = 1\n text = \"%s\"\n}\nprivate = <table> {\n DBMPrefix = \"D5\"\n dataBroker = <table> {\n }\n statusWhisperDisabled = false\n isWrath = false\n statusGuildDisabled = false\n raidIconsDisabled = false\n DBMSyncProtocol = 1\n specRoleTable = <table> {\n }\n isRetail = true\n enableIcons = false\n testBuild = false\n voiceSessionDisabled = false\n isClassic = false\n modSyncSpam = <table> {\n }\n swFilterDisabled = 18\n standardFont = \"Fonts\\FRIZQT__.TTF\"\n playerLevel = 16\n mainFrame = DBMMainFrame {\n }\n isMop = false\n isBCC = false\n isCata = false\n wowTOC = 110205\n currentSeason = false\n updateFunctions = <table> {\n }\n canSetIcons = <table> {\n }\n chatBubblesDisabled = false\n}\ndummyMod = <table> {\n timers = <table> {\n }\n categorySort = <table> {\n }\n SyncThreshold = 8\n timer = <table> {\n }\n groupSpells = <table> {\n }\n geartext = <table> {\n }\n isTrashMod = false\n yells = <table> {\n }\n zones = <table> {\n }\n revision = 0\n Options = <table> {\n }\n DefaultOptions = <table> {\n }\n id = \"PullTimerCountdownDummy\"\n text = <table> {\n }\n inCombat = false\n isDummyMod = true\n groupOptions = <table> {\n }\n iconRestore = <table> {\n }\n specwarns = <table> {\n }\n localization = <table> {\n }\n announces = <table> {\n }\n vb = <table> {\n }\n optionCategories = <table> {\n }\n}\nL = <table> {\n AUTO_RRANGE_OPTION_TEXT = \"Show reverse range frame (%s) for $spell:%s\"\n ANNOUNCE_PULL = \"Pull in %d sec. (Sent by %s)\"\n SCENARIO_ENDED_AT = \"%s ended after %s.\"\n VERSIONCHECK_ENTRY_TWO = \"%s: %s (%s) & %s (%s)\"\n MPROFILE_COPY_SUCCESS = \"%s's (%d spec) mod settings have been copied.\"\n RAID_DIFFICULTY_CHANGED = \"Raid difficulty has been set to %s.\"\n OPTION_CATEGORY_WARNINGS_ROLE = \"Role Announces\"\n TIMER_FORMAT_MINS = \"%d |4minute:minutes;\"\n ANNOUNCE_PULL_TARGET = \"Pulling %s in %d sec. (Sent by %s)\"\n OVERRIDE_ACTIVATED = \"Configuration overrides have been activated for this encounter by RL\"\n AUTO_ICONS_OPTION_TARGETS_ALPHA = \"Set icons on $spell:%s targets with alphabetical priority\"\n INFOFRAME_TITLE = \"DBM Info Frame\"\n PROFILE_APPLIED = \"'%s' profile applied.\"\n PIZZA_SYNC_INFO = \"|Hplayer:%1$s|h[%1$s]|h sent you a DBM timer: '%2$s'\n|Hgarrmission:DBM:cancel:%2$s:nil|h|cff3588ff[Cancel this timer]|r|h  |Hgarrmission:DBM:ignore:%2$s:%1$s|h|cff3588ff[Ignore timers from %1$s]|r|h\"\n AUTO_ICONS_OPTION_TARGETS = \"Set icons on $spell:%s targets\"\n GUILD_COMBAT_ENDED = \"%s's Guild group has wiped on %s after %s.\"\n RANGECHECK_HEADERT = \"Range Check (%dy-%dP)\"\n GEAR_WARNING = \"Warning: Check gear. Your equipped ilvl is %d lower than bag ilvl\"\n AUTO_YELL_OPTION_TEXT = <table> {\n }\n PIZZA_CONFIRM_IGNORE = \"Do you really want to ignore DBM timers from %s for this session?\"\n RANGERADAR_HEADER = \"Range:%d Players:%d\"\n DUNGEON_DIFFICULTY_CHANGED = \"Dungeon difficulty has been set to %s.\"\n DBM_INSTALL_REMINDER_DISABLE2 = \"Do not show this message again for this package.\"\n V",
-["stack"] = "[Interface/AddOns/DBM-Core/DBM-Core.lua]:4868: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:4812>\n[Interface/AddOns/DBM-Core/DBM-Core.lua]:5525: in function 'handler'\n[Interface/AddOns/DBM-Core/DBM-Core.lua]:1147: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:1133>",
-["session"] = 6,
-["counter"] = 1,
-},
-{
-["message"] = "Interface/AddOns/GatherMate2/Collector.lua:44: table index is nil",
-["time"] = "2026/08/29 15:36:53",
-["locals"] = "",
-["stack"] = "",
-["session"] = 13,
-["counter"] = 13,
-},
-{
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'AtlasLoot' tried to call the protected function 'Button:SetPassThroughButtons()'.",
-["time"] = "2026/08/30 16:49:47",
-["locals"] = "self = <table> {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\naddonName = \"AtlasLoot\"\naddonFunc = \"Button:SetPassThroughButtons()\"\nname = \"AtlasLoot\"\nbadAddons = <table> {\n AtlasLoot = true\n}\nL = <table> {\n ADDON_CALL_PROTECTED_MATCH = \"^%[(.*)%] (AddOn '.*' tried to call the protected function '.*'.)$\"\n NO_DISPLAY_2 = \"|cffffff00The standard display is called BugSack, and can probably be found on the same site where you found !BugGrabber.|r\"\n ERROR_DETECTED = \"%s |cffffff00captured, click the link for more information.|r\"\n USAGE = \"|cffffff00Usage: /buggrabber <1-%d>.|r\"\n BUGGRABBER_STOPPED = \"|cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r\"\n STOP_NAG = \"|cffffff00!BugGrabber will not nag about missing a display addon again until next patch.|r\"\n ADDON_DISABLED = \"|cffffff00!BugGrabber and %s cannot coexist; %s has been forcefully disabled. If you want to, you may log out, disable !BugGrabber, and enable %s.|r\"\n NO_DISPLAY_STOP = \"|cffffff00If you don't want to be reminded about this again, run /stopnag.|r\"\n NO_DISPLAY_1 = \"|cffffff00You seem to be running !BugGrabber with no display addon to go along with it. Although a slash command is provided for accessing error reports, a display can help you manage these errors in a more convenient way.|r\"\n ERROR_UNABLE = \"|cffffff00!BugGrabber is unable to retrieve errors from other players by itself. Please install BugSack or a similar display addon that might give you this functionality.|r\"\n ADDON_CALL_PROTECTED = \"[%s] AddOn '%s' tried to call the protected function '%s'.\"\n}\n",
-["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:583: in function '?'\n[Interface/AddOns/!BugGrabber/BugGrabber.lua]:507: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:507>\n[C]: in function 'SetPassThroughButtons'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:288: in function 'CheckMouseButtonPassthrough'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:302: in function 'AcquirePin'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:94: in function <...haredMapDataProviders/BonusObjectiveDataProvider.lua:89>\n[C]: in function 'xpcall'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:76: in function 'FireCallbacks'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:35: in function <.../Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua:31>\n[C]: in function 'accessor'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:52: in function 'AddCallback'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:60: in function 'AddCancelableCallback'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:89: in function 'RefreshAllData'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:62: in function 'OnEvent'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:99: in function 'SignalEvent'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:117: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:116>\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent'\n[Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua]:163: in function <...rface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua:162>",
-["session"] = 13,
-["counter"] = 1,
-},
-},
+	["lastSanitation"] = 3,
+	["session"] = 5,
+	["errors"] = {
+		{
+			["message"] = "Interface\\FrameXML\\ChatConfigFrame.lua:931: bad argument #1 to 'ipairs' (table expected, got nil)",
+			["time"] = "2026/08/31 16:50:08",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n = <function> defined =[C]:-1\n",
+			["stack"] = "[string \"=[C]\"]: in function `ipairs'\n[string \"@Interface\\FrameXML\\ChatConfigFrame.lua\"]:931: in function `ChatConfig_UpdateCheckboxes'\n[string \"@Interface\\FrameXML\\ChatConfigFrame.lua\"]:1711: in function `ChatConfig_UpdateChatSettings'\n[string \"@Interface\\FrameXML\\ChatConfigFrame.lua\"]:722: in function <Interface\\FrameXML\\ChatConfigFrame.lua:695>",
+			["session"] = 5,
+			["counter"] = 5,
+		}, -- [1]
+	},
 }

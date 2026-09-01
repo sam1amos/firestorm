@@ -1,15 +1,12 @@
 
 QuesterDB = {
-	["profileKeys"] = {
-		["Arkannalla - BFA Reforged"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["questLevels"] = true,
-			["pos"] = {
-				["y"] = 808,
-				["x"] = 1648,
-			},
-		},
-	},
+["profileKeys"] = {
+["Arkannalla - Dornogal"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["questLevels"] = true,
+["removeComplete"] = false,
+},
+},
 }

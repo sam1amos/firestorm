@@ -1,12 +1,15 @@
-BINDINGMODE 0
-bind UP NONE
-bind Q CLICK BT4Button13:LeftButton
-bind E CLICK BT4Button14:LeftButton
-bind NUMPADPLUS NONE
-bind NUMPADMINUS NONE
-bind CTRL-M NONE
-bind CTRL-S NONE
+bind Q CLICK BT4Button61:Keybind
+bind E CLICK BT4Button62:Keybind
+bind NUMLOCK NONE
+bind INSERT NONE
+bind DELETE NONE
+bind F ASSISTTARGET
+bind F8 NONE
+bind F9 NONE
+bind F10 NONE
+bind F11 NONE
 bind END NONE
 bind HOME NONE
-bind . CLICK BT4Button15:LeftButton
-bind BUTTON5 CLICK BT4Button15:LeftButton
+bind BUTTON5 CLICK BT4Button63:Keybind
+bind . CLICK BT4Button63:Keybind
+bind NUMPADMULTIPLY TOGGLEAUTORUN

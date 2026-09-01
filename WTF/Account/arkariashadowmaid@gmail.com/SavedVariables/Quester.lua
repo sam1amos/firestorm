@@ -1,15 +1,12 @@
 
 QuesterDB = {
-	["profileKeys"] = {
-		["Arkalla - BFA Reforged"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["questLevels"] = true,
-			["pos"] = {
-				["y"] = 808,
-				["x"] = 1648,
-			},
-		},
-	},
+["profileKeys"] = {
+["Arkalla - Dornogal"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["questLevels"] = true,
+["removeComplete"] = false,
+},
+},
 }

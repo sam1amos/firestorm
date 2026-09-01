@@ -1,101 +1,31 @@
 
 BugGrabberDB = {
-	["session"] = 8,
-	["lastSanitation"] = 3,
-	["errors"] = {
-		{
-			["message"] = "Interface\\AddOns\\Syndicator\\Core\\Constants.lua:3: attempt to index field 'BagIndex' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "(*temporary) = <table> {\n Core = <table> {\n }\n Options = <table> {\n }\n API = <table> {\n }\n Locales = <table> {\n }\n Utilities = <table> {\n }\n Tracking = <table> {\n }\n Search = <table> {\n }\n}\n(*temporary) = <table> {\n}\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'BagIndex' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Core\\Constants.lua\"]:3: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [1]
-		{
-			["message"] = "Interface\\AddOns\\Syndicator\\Core\\Config.lua:31: attempt to index field 'Constants' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "(*temporary) = <table> {\n Options = <table> {\n }\n}\n(*temporary) = <table> {\n show_inventory_tooltips = true\n show_equipped_items_in_tooltips = true\n show_currency_tooltips = true\n show_tooltips_on_shift = false\n show_guild_banks_in_tooltips = true\n}\n(*temporary) = \"tooltips_connected_realms_only_2\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'Constants' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Core\\Config.lua\"]:31: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [2]
-		{
-			["message"] = "Interface\\AddOns\\Syndicator\\Core\\Utilities.lua:34: attempt to index field 'Constants' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "(*temporary) = nil\n(*temporary) = <function> defined @Interface\\AddOns\\Syndicator\\Core\\Utilities.lua:29\n(*temporary) = <table> {\n OnAddonLoaded = <function> defined @Interface\\AddOns\\Syndicator\\Core\\Utilities.lua:19\n GetCharacterFullName = <function> defined @Interface\\AddOns\\Syndicator\\Core\\Utilities.lua:29\n Message = <function> defined @Interface\\AddOns\\Syndicator\\Core\\Utilities.lua:1\n}\n(*temporary) = <function> defined @Interface\\AddOns\\Syndicator\\Core\\Utilities.lua:19\n(*temporary) = \"OnEvent\"\n(*temporary) = <function> defined @Interface\\AddOns\\Syndicator\\Core\\Utilities.lua:9\n(*temporary) = \"attempt to index field 'Constants' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Core\\Utilities.lua\"]:34: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [3]
-		{
-			["message"] = "Interface\\SharedXML\\Mixin.lua:28: bad argument #1 to 'pairs' (table expected, got nil)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n = <function> defined =[C]:-1\n",
-			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface\\SharedXML\\Mixin.lua\"]:28: in function <Interface\\SharedXML\\Mixin.lua:25>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Syndicator\\Core\\Initialize.lua\"]:1: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [4]
-		{
-			["message"] = "Interface\\AddOns\\Syndicator\\Tracking\\Utilities.lua:101: attempt to index field 'Constants' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "SplitLink = <function> defined @Interface\\AddOns\\Syndicator\\Tracking\\Utilities.lua:1\nbattlePetTooltip = <table> {\n 1 = \"battlePetSpeciesID\"\n 2 = \"battlePetLevel\"\n 3 = \"battlePetBreedQuality\"\n 4 = \"battlePetMaxHealth\"\n 5 = \"battlePetPower\"\n 6 = \"battlePetSpeed\"\n}\ncachedConnectedRealms = <table> {\n}\ngenders = <table> {\n 1 = \"unknown\"\n 2 = \"male\"\n 3 = \"female\"\n}\nraceCorrections = <table> {\n zandalaritroll = \"zandalari\"\n scourge = \"undead\"\n lightforgeddraenei = \"lightforged\"\n highmountaintauren = \"highmountain\"\n earthendwarf = \"earthen\"\n}\nprefix = nil\n(*temporary) = nil\n(*temporary) = \"battlePetSpeed\"\n(*temporary) = \"attempt to index field 'Constants' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Tracking\\Utilities.lua\"]:101: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [5]
-		{
-			["message"] = "Interface\\AddOns\\Syndicator\\Tracking\\BagCache.lua:7: attempt to index field 'Constants' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "craftingItemUpdateDelay = 2\nbankBags = <table> {\n}\nbagBags = <table> {\n}\nwarbandBags = <table> {\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'Constants' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Tracking\\BagCache.lua\"]:7: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [6]
-		{
-			["message"] = "...ce\\AddOns\\Syndicator\\Tracking\\AuctionCacheModern.lua:1: attempt to index field 'Constants' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'Constants' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Tracking\\AuctionCacheModern.lua\"]:1: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [7]
-		{
-			["message"] = "Interface\\AddOns\\Syndicator\\Search\\Constants.lua:189: attempt to index field 'Constants' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "ClassData = <table> {\n 13 = <table> {\n }\n 7 = <table> {\n }\n 1 = <table> {\n }\n 2 = <table> {\n }\n 4 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 5 = <table> {\n }\n 10 = <table> {\n }\n 3 = <table> {\n }\n 6 = <table> {\n }\n 12 = <table> {\n }\n 11 = <table> {\n }\n}\ncurrentClass = 2\nclassDetails = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n}\n(*temporary) = nil\n(*temporary) = <table> {\n 1 = \"Item Type\"\n 2 = \"Item Detail\"\n 3 = \"Binding Type\"\n 4 = \"Quality\"\n 5 = \"Equipment Slot\"\n 6 = \"Weapon Type\"\n 7 = \"Armor Type\"\n 8 = \"Stat\"\n 9 = \"Socket\"\n 10 = \"Trade Goods\"\n 11 = \"Recipe\"\n 12 = \"Glyph\"\n 13 = \"Consumable\"\n 14 = \"Expansion\"\n 15 = \"Battle Pet Type\"\n 16 = \"Housing\"\n}\n(*temporary) = \"Item Type\"\n(*temporary) = \"Item Detail\"\n(*temporary) = \"Binding Type\"\n(*temporary) = \"Quality\"\n(*temporary) = \"Equipment Slot\"\n(*temporary) = \"Weapon Type\"\n(*temporary) = \"Armor Type\"\n(*temporary) = \"Stat\"\n(*temporary) = \"Socket\"\n(*temporary) = \"Trade Goods\"\n(*temporary) = \"Recipe\"\n(*temporary) = \"Glyph\"\n(*temporary) = \"Consumable\"\n(*temporary) = \"Expansion\"\n(*temporary) = \"Battle Pet Type\"\n(*temporary) = \"Housing\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'Constants' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Search\\Constants.lua\"]:189: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [8]
-		{
-			["message"] = "Interface\\AddOns\\Syndicator\\Search\\CheckItem.lua:22: attempt to index field 'Constants' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "GetItemName = <function> defined @Interface\\AddOns\\Syndicator\\Search\\CheckItem.lua:4\nGetClassSubClass = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'Constants' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Search\\CheckItem.lua\"]:22: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [9]
-		{
-			["message"] = "...erface\\AddOns\\Syndicator\\Search\\SearchEverywhere.lua:136: attempt to index field 'CallbackRegistry' (a nil value)",
-			["time"] = "2026/08/31 16:22:49",
-			["locals"] = "addonTable = <table> {\n}\ncache = <table> {\n}\nCacheCharacter = <function> defined @Interface\\AddOns\\Syndicator\\Search\\SearchEverywhere.lua:6\nCacheGuild = <function> defined @Interface\\AddOns\\Syndicator\\Search\\SearchEverywhere.lua:73\nCacheWarband = <function> defined @Interface\\AddOns\\Syndicator\\Search\\SearchEverywhere.lua:93\npendingQueries = <table> {\n}\npending = nil\ntoPurge = <table> {\n Characters = <table> {\n }\n Guilds = <table> {\n }\n Warband = <table> {\n }\n}\nmanagingFrame = <unnamed> {\n 0 = <userdata>\n}\nsearchMonitorPool = <table> {\n frameType = \"Frame\"\n ReleaseAll = <function> defined @Interface\\SharedXML\\Pools.lua:74\n activeObjects = <table> {\n }\n creationFunc = <function> defined @Interface\\SharedXML\\Pools.lua:108\n EnumerateActive = <function> defined @Interface\\SharedXML\\Pools.lua:80\n EnumerateInactive = <function> defined @Interface\\SharedXML\\Pools.lua:96\n GetTemplate = <function> defined @Interface\\SharedXML\\Pools.lua:127\n OnLoad = <function> defined @Interface\\SharedXML\\Pools.lua:116\n IsActive = <function> defined @Interface\\SharedXML\\Pools.lua:88\n GetNumActive = <function> defined @Interface\\SharedXML\\Pools.lua:92\n resetterFunc = <function> defined @Interface\\SharedXML\\Pools.lua:135\n frameTemplate = \"SyndicatorOfflineListSearchTemplate\"\n parent = UIParent {\n }\n inactiveObjects = <table> {\n }\n Release = <function> defined @Interface\\SharedXML\\Pools.lua:59\n Acquire = <function> defined @Interface\\SharedXML\\Pools.lua:40\n GetNextActive = <function> defined @Interface\\SharedXML\\Pools.lua:84\n numActiveObjects = 0\n}\nQuery = <function> defined @Interface\\AddOns\\Syndicator\\Search\\SearchEverywhere.lua:120\nCharacterCacheUpdate = <function> defined @Interface\\AddOns\\Syndicator\\Search\\SearchEverywhere.lua:129\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <table> {\n frameType = \"Frame\"\n ReleaseAll = <function> defined @Interface\\SharedXML\\Pools.lua:74\n activeObjects = <table> {\n }\n creationFunc = <function> defined @Interface\\SharedXML\\Pools.lua:108\n EnumerateActive = <function> defined @Interface\\SharedXML\\Pools.lua:80\n EnumerateInactive = <function> defined @Interface\\SharedXML\\Pools.lua:96\n GetTemplate = <function> defined @Interface\\SharedXML\\Pools.lua:127\n OnLoad = <function> defined @Interface\\SharedXML\\Pools.lua:116\n IsActive = <function> defined @Interface\\SharedXML\\Pools.lua:88\n GetNumActive = <function> defined @Interface\\SharedXML\\Pools.lua:92\n resetterFunc = <function> defined @Interface\\SharedXML\\Pools.lua:135\n frameTemplate = \"SyndicatorOfflineListSearchTemplate\"\n parent = UIParent {\n }\n inactiveObjects = <table> {\n }\n Release = <function> defined @Interface\\SharedXML\\Pools.lua:59\n Acquire = <function> defined @Interface\\SharedXML\\Pools.lua:40\n GetNextActive = <function> defined @Interface\\SharedXML\\Pools.lua:84\n numActiveObjects = 0\n}\n(*temporary) = <function> defined @Interface\\SharedXML\\Pools.lua:116\n(*temporary) = <table> {\n frameType = \"Frame\"\n ReleaseAll = <function> defined @Interface\\SharedXML\\Pools.lua:74\n activeObjects = <table> {\n }\n creationFunc = <function> defined @Interface\\SharedXML\\Pools.lua:108\n EnumerateActive = <function> defined @Interface\\SharedXML\\Pools.lua:80\n EnumerateInactive = <function> defined @Interface\\SharedXML\\Pools.lua:96\n GetTemplate = <function> defined @Interface\\SharedXML\\Pools.lua:127\n OnLoad = <function> defined @Interface\\SharedXML\\Pools.lua:116\n IsActive = <function> defined @Interface\\SharedXML\\Pools.lua:88\n GetNumActive = <function> defined @Interface\\SharedXML\\Pools.lua:92\n resetterFunc = <function> defined @Interface\\SharedXML\\Pools.lua:135\n frameTemplate = \"SyndicatorOfflineListSearchTemplate\"\n parent = UIParent {\n }\n inactiveObjects = <table> {\n }\n Release = <function> defined @Interface\\SharedXML\\Pools.lua:59\n Acquire = <function> defined @Interface\\SharedXML\\Pools.lua:40\n GetNextActive = <function> defined @Interface\\SharedXML\\Pools.lua:84\n numActiveObjects = 0\n}\n(*temporary) = \"Frame\"\n(*temporary) = UIParent {\n 0 = <userdata>\n firstTimeLoaded = 1\n}\n(*temporary) = \"attempt to index field 'CallbackRegistry' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Syndicator\\Search\\SearchEverywhere.lua\"]:136: in main chunk",
-			["session"] = 1,
-			["counter"] = 1,
-		}, -- [10]
-		{
-			["message"] = "(null)",
-			["session"] = 1,
-			["time"] = "2026/08/31 16:22:52",
-			["counter"] = 10,
-		}, -- [11]
-		{
-			["message"] = "Interface\\FrameXML\\ChatConfigFrame.lua:931: bad argument #1 to 'ipairs' (table expected, got nil)",
-			["time"] = "2026/08/31 16:22:51",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n = <function> defined =[C]:-1\n",
-			["stack"] = "[string \"=[C]\"]: in function `ipairs'\n[string \"@Interface\\FrameXML\\ChatConfigFrame.lua\"]:931: in function `ChatConfig_UpdateCheckboxes'\n[string \"@Interface\\FrameXML\\ChatConfigFrame.lua\"]:1711: in function `ChatConfig_UpdateChatSettings'\n[string \"@Interface\\FrameXML\\ChatConfigFrame.lua\"]:722: in function <Interface\\FrameXML\\ChatConfigFrame.lua:695>",
-			["session"] = 8,
-			["counter"] = 8,
-		}, -- [12]
-	},
+["session"] = 10,
+["lastSanitation"] = 3,
+["errors"] = {
+{
+["message"] = "Interface/AddOns/DBM-Core/DBM-Core.lua:4868: bad argument #2 to 'format' (string expected, got nil)",
+["time"] = "2026/08/29 21:07:45",
+["locals"] = "self = <table> {\n ReleaseRevision = 20251118000000\n TaintedByTests = false\n Arrow = <table> {\n }\n RangeCheck = <table> {\n }\n Test = <table> {\n }\n Voices = <table> {\n }\n BattleMusic = <table> {\n }\n InfoFrame = <table> {\n }\n dungeonSubVersion = 216\n Flash = <table> {\n }\n ModLists = <table> {\n }\n DisplayVersion = \"12.0.7 alpha\"\n Difficulties = <table> {\n }\n Music = <table> {\n }\n lastAntiSpamFLASH = 28450.212000\n lastAntiSpamDelayedZoneCheck = 28311.276000\n lastAntiSpamPTSYSTEM = 28450.212000\n registeredUnitEvents = <table> {\n }\n VoiceVersions = <table> {\n }\n AddOns = <table> {\n }\n classicSubVersion = 0\n Options = <table> {\n }\n Latency = <table> {\n }\n Revision = 20251130094721\n shortTermRegisterEvents = <table> {\n }\n DungeonMusic = <table> {\n }\n Defeat = <table> {\n }\n Victory = <table> {\n }\n Counts = <table> {\n }\n Keystones = <table> {\n }\n Durability = <table> {\n }\n Nameplate = <table> {\n }\n HudMap = <table> {\n }\n DefaultOptions = <table> {\n }\n HighestRelease = 20251118000000\n Mods = <table> {\n }\n}\nsender = nil\ntimer = 10\nblizzardTimer = true\nunitId = nil\ntarget = nil\n(*temporary) = <table> {\n color = <table> {\n }\n objClass = \"Announce\"\n combinedcount = 0\n mod = <table> {\n }\n option = \"%s\"\n combinedtext = <table> {\n }\n icon = \"132349\"\n sound = 1\n text = \"%s\"\n}\nprivate = <table> {\n DBMPrefix = \"D5\"\n dataBroker = <table> {\n }\n statusWhisperDisabled = false\n isWrath = false\n statusGuildDisabled = false\n raidIconsDisabled = false\n DBMSyncProtocol = 1\n specRoleTable = <table> {\n }\n isRetail = true\n enableIcons = false\n testBuild = false\n voiceSessionDisabled = false\n isClassic = false\n modSyncSpam = <table> {\n }\n swFilterDisabled = 18\n standardFont = \"Fonts\\FRIZQT__.TTF\"\n playerLevel = 25\n mainFrame = DBMMainFrame {\n }\n isMop = false\n isBCC = false\n isCata = false\n wowTOC = 110205\n currentSeason = false\n updateFunctions = <table> {\n }\n canSetIcons = <table> {\n }\n chatBubblesDisabled = false\n}\ndummyMod = <table> {\n timers = <table> {\n }\n categorySort = <table> {\n }\n SyncThreshold = 8\n timer = <table> {\n }\n groupSpells = <table> {\n }\n geartext = <table> {\n }\n isTrashMod = false\n yells = <table> {\n }\n zones = <table> {\n }\n revision = 0\n Options = <table> {\n }\n DefaultOptions = <table> {\n }\n id = \"PullTimerCountdownDummy\"\n text = <table> {\n }\n inCombat = false\n isDummyMod = true\n groupOptions = <table> {\n }\n iconRestore = <table> {\n }\n specwarns = <table> {\n }\n localization = <table> {\n }\n announces = <table> {\n }\n vb = <table> {\n }\n optionCategories = <table> {\n }\n}\nL = <table> {\n AUTO_RRANGE_OPTION_TEXT = \"Show reverse range frame (%s) for $spell:%s\"\n ANNOUNCE_PULL = \"Pull in %d sec. (Sent by %s)\"\n SCENARIO_ENDED_AT = \"%s ended after %s.\"\n VERSIONCHECK_ENTRY_TWO = \"%s: %s (%s) & %s (%s)\"\n MPROFILE_COPY_SUCCESS = \"%s's (%d spec) mod settings have been copied.\"\n RAID_DIFFICULTY_CHANGED = \"Raid difficulty has been set to %s.\"\n OPTION_CATEGORY_WARNINGS_ROLE = \"Role Announces\"\n TIMER_FORMAT_MINS = \"%d |4minute:minutes;\"\n ANNOUNCE_PULL_TARGET = \"Pulling %s in %d sec. (Sent by %s)\"\n OVERRIDE_ACTIVATED = \"Configuration overrides have been activated for this encounter by RL\"\n AUTO_ICONS_OPTION_TARGETS_ALPHA = \"Set icons on $spell:%s targets with alphabetical priority\"\n INFOFRAME_TITLE = \"DBM Info Frame\"\n PROFILE_APPLIED = \"'%s' profile applied.\"\n PIZZA_SYNC_INFO = \"|Hplayer:%1$s|h[%1$s]|h sent you a DBM timer: '%2$s'\n|Hgarrmission:DBM:cancel:%2$s:nil|h|cff3588ff[Cancel this timer]|r|h  |Hgarrmission:DBM:ignore:%2$s:%1$s|h|cff3588ff[Ignore timers from %1$s]|r|h\"\n AUTO_ICONS_OPTION_TARGETS = \"Set icons on $spell:%s targets\"\n GUILD_COMBAT_ENDED = \"%s's Guild group has wiped on %s after %s.\"\n RANGECHECK_HEADERT = \"Range Check (%dy-%dP)\"\n GEAR_WARNING = \"Warning: Check gear. Your equipped ilvl is %d lower than bag ilvl\"\n AUTO_YELL_OPTION_TEXT = <table> {\n }\n PIZZA_CONFIRM_IGNORE = \"Do you really want to ignore DBM timers from %s for this session?\"\n RANGERADAR_HEADER = \"Range:%d Players:%d\"\n DUNGEON_DIFFICULTY_CHANGED = \"Dungeon difficulty has been set to %s.\"\n DBM_INSTALL_REMINDER_DISABLE2 = \"Do not show this message again for this package.\"\n V",
+["stack"] = "[Interface/AddOns/DBM-Core/DBM-Core.lua]:4868: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:4812>\n[Interface/AddOns/DBM-Core/DBM-Core.lua]:5525: in function 'handler'\n[Interface/AddOns/DBM-Core/DBM-Core.lua]:1147: in function <Interface/AddOns/DBM-Core/DBM-Core.lua:1133>",
+["session"] = 6,
+["counter"] = 1,
+},
+{
+["message"] = "Interface/AddOns/GatherMate2/Collector.lua:44: table index is nil",
+["time"] = "2026/08/29 15:36:53",
+["locals"] = "",
+["stack"] = "",
+["session"] = 10,
+["counter"] = 10,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'SexyMap' tried to call the protected function 'Button:SetPassThroughButtons()'.",
+["time"] = "2026/08/30 16:30:42",
+["locals"] = "self = <table> {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\naddonName = \"SexyMap\"\naddonFunc = \"Button:SetPassThroughButtons()\"\nname = \"SexyMap\"\nbadAddons = <table> {\n SexyMap = true\n}\nL = <table> {\n ADDON_CALL_PROTECTED_MATCH = \"^%[(.*)%] (AddOn '.*' tried to call the protected function '.*'.)$\"\n NO_DISPLAY_2 = \"|cffffff00The standard display is called BugSack, and can probably be found on the same site where you found !BugGrabber.|r\"\n ERROR_DETECTED = \"%s |cffffff00captured, click the link for more information.|r\"\n USAGE = \"|cffffff00Usage: /buggrabber <1-%d>.|r\"\n BUGGRABBER_STOPPED = \"|cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r\"\n STOP_NAG = \"|cffffff00!BugGrabber will not nag about missing a display addon again until next patch.|r\"\n ADDON_DISABLED = \"|cffffff00!BugGrabber and %s cannot coexist; %s has been forcefully disabled. If you want to, you may log out, disable !BugGrabber, and enable %s.|r\"\n NO_DISPLAY_STOP = \"|cffffff00If you don't want to be reminded about this again, run /stopnag.|r\"\n NO_DISPLAY_1 = \"|cffffff00You seem to be running !BugGrabber with no display addon to go along with it. Although a slash command is provided for accessing error reports, a display can help you manage these errors in a more convenient way.|r\"\n ERROR_UNABLE = \"|cffffff00!BugGrabber is unable to retrieve errors from other players by itself. Please install BugSack or a similar display addon that might give you this functionality.|r\"\n ADDON_CALL_PROTECTED = \"[%s] AddOn '%s' tried to call the protected function '%s'.\"\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:583: in function '?'\n[Interface/AddOns/!BugGrabber/BugGrabber.lua]:507: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:507>\n[C]: in function 'SetPassThroughButtons'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:288: in function 'CheckMouseButtonPassthrough'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:302: in function 'AcquirePin'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:94: in function <...haredMapDataProviders/BonusObjectiveDataProvider.lua:89>\n[C]: in function 'xpcall'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:76: in function 'FireCallbacks'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:35: in function <.../Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua:31>\n[C]: in function 'accessor'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:52: in function 'AddCallback'\n[Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua]:60: in function 'AddCancelableCallback'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:89: in function 'RefreshAllData'\n[Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua]:62: in function 'OnEvent'\n[Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua]:99: in function 'SignalEvent'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:117: in function <...ace/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua:116>\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent'\n[Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua]:163: in function <...rface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.lua:162>",
+["session"] = 10,
+["counter"] = 1,
+},
+},
 }

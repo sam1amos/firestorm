@@ -1,11 +1,11 @@
 
 OmniCCDB = {
-["profileKeys"] = {
-["Arkalla - Dornogal"] = "Default",
-},
 ["global"] = {
 ["dbVersion"] = 6,
 ["addonVersion"] = "11.2.7",
+},
+["profileKeys"] = {
+["Arkalla - Dornogal"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -41,9 +41,9 @@ OmniCCDB = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
-["soon"] = {
-},
 ["seconds"] = {
+},
+["soon"] = {
 },
 ["minutes"] = {
 },

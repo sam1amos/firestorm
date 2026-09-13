@@ -60,7 +60,7 @@ Details_RaidCheck: enabled
 Details_DataStorage: enabled
 Details_Streamer: enabled
 Details_TinyThreat: enabled
-Details_Vanguard: enabled
+Details_Vanguard: disabled
 GatherMate2: enabled
 GatherMate2Storage_Dragonflight: enabled
 GatherMate2Storage_TheWarWithin: enabled

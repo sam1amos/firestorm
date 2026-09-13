@@ -1,14 +1,14 @@
 
 Postal3DB = {
+["profileKeys"] = {
+["Arkalla - Dornogal"] = "Arkalla - Dornogal",
+},
 ["global"] = {
 ["BlackBook"] = {
 ["alts"] = {
-"Arkalla|Dornogal|Horde|21|PRIEST",
+"Arkalla|Dornogal|Horde|23|PRIEST",
 },
 },
-},
-["profileKeys"] = {
-["Arkalla - Dornogal"] = "Arkalla - Dornogal",
 },
 ["profiles"] = {
 ["Arkalla - Dornogal"] = {

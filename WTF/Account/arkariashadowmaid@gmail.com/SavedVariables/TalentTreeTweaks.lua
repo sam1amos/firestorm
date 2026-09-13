@@ -9,8 +9,8 @@ TalentTreeTweaksDB = {
 ["ReduceTaint"] = true,
 ["ExportInspectedBuild"] = true,
 ["TooltipIds"] = true,
-["AlwaysShowGates"] = true,
 ["ReduceSpam"] = true,
+["AlwaysShowGates"] = true,
 ["ChangeBackground"] = true,
 ["CopyTalentButtonInfo"] = true,
 ["MiscFixes"] = true,
@@ -53,30 +53,30 @@ TalentTreeTweaksDB = {
 ["unlockInCombatSpending"] = true,
 },
 ["MiniTreeInTooltip"] = {
-["upgradedDisplayStyle"] = 1,
-["displayStyle"] = "simple-default-diff",
 ["diffOrange"] = {
 ["b"] = 0,
 ["g"] = 1,
 ["r"] = 1,
 },
+["displayStyle"] = "simple-default-diff",
+["upgradedDisplayStyle"] = 1,
 ["diffRed"] = {
 ["b"] = 0,
 ["g"] = 0,
 ["r"] = 1,
 },
 ["scale"] = 1,
-["diffGreen"] = {
-["b"] = 0,
-["g"] = 1,
-["r"] = 0,
-},
+["inactiveSubTreeAlpha"] = 0.5,
 ["diffYellow"] = {
 ["b"] = 1,
 ["g"] = 1,
 ["r"] = 1,
 },
-["inactiveSubTreeAlpha"] = 0.5,
+["diffGreen"] = {
+["b"] = 0,
+["g"] = 1,
+["r"] = 0,
+},
 },
 ["ReduceTaint"] = {
 ["alwaysReplaceShareButton"] = false,

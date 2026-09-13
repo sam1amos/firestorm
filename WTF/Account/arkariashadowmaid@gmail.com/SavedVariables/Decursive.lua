@@ -6,7 +6,7 @@ DecursiveDB = {
 ["namespaces"] = {
 },
 ["class"] = {
-["PALADIN"] = {
+["PRIEST"] = {
 ["CureOrder-3"] = {
 1,
 5,
@@ -28,7 +28,7 @@ nil,
 [8] = 3,
 },
 },
-["PRIEST"] = {
+["PALADIN"] = {
 ["CureOrder-3"] = {
 1,
 5,
@@ -52,7 +52,7 @@ nil,
 },
 },
 ["global"] = {
-["LastVersionAnnounce"] = 1788997431,
+["LastVersionAnnounce"] = 1789260947,
 },
 ["profiles"] = {
 ["Default"] = {
